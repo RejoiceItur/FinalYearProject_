@@ -1,0 +1,382 @@
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo img {
+    height: 40px;
+    float: left;
+    margin-left: 0;
+  }
+  
+  .search {
+    flex: 3;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .search i {
+    font-size: 20px;
+    color: #ccc;
+    padding: 10px;
+  }
+  
+  .options {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .options select {
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: white;
+    color: #333;
+  }
+  
+  .sell {
+    background-color: #ffce32;
+    color: white;
+    border-radius: 20px;
+  }
+  
+
+
+
+
+  .navbar_2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .navbar_2 li {
+    margin: 10px;
+  }
+  
+  .navbar_2 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu a:hover {
+    color: #ffce32;
+  }
+  
+
+
+
+
+
+  .banner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .left {
+    flex: 1;
+    background-color: #00b159;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left img {
+    height: 60px;
+    margin: 10px;
+  }
+  
+  .left p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .middle {
+    flex: 2;
+    background-color: #e5f5fa;
+    background-image: url("circuit-pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .middle h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .middle h2 {
+    color: #666;
+    font-size: 20px;
+  }
+  
+  .right {
+    flex: 1;
+    background-color: #ff6c37;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #ffce32;
+    cursor: pointer;
+  }
+  
+  .right i {
+    font-size: 40px;
+    color: white;
+  }
+  
+
+
+
+  .products {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .products h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card .info {
+    padding: 10px;
+  }
+  
+  .card .price {
+    color: #ff6c37;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card .desc {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .card .loc {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .card.featured {
+    border: 2px solid #ffce32;
+  }
+  
+  .sell {
+    position: relative;
+  }
+  
+  .sell img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  
+  .sell .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .sell .text p {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .sell .text button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #ffce32;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+
+  
+
+
+  .footer {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container_footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .col ul li {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .col ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .col ul.icons {
+    display: flex;
+  }
+  
+  .col ul.icons li {
+    margin-right: 10px;
+  }
+  
+  .col ul.icons li i {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .col ul.stores {
+    display: flex;
+  }
+  
+  .col ul.stores li {
+    margin-right: 10px;
+  }
+  
+  .col ul.stores li img {
+    height: 40px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .bottom p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Add styles for media queries, hover effects, etc., as needed */
+  
+  
+  
+  
+  
+  
